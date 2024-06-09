@@ -30,22 +30,6 @@ export default Connection;
 
 
 
-// import mongoose from 'mongoose';
-// export const Connection = async() =>{
-//   const URL  ='mongodb+srv://ayush_jindal:Ayush@1234@ecommerce-web.hifsk3a.mongodb.net/ecommerce-web?retryWrites=true&w=majority&appName=ecommerce-web'
-   
-//     try{ 
-//        await mongoose.connect(URL , {useUnifiedTopology: true,  useNewUrlParser: true});
-//        console.log("Database connected Successfully")
-//     }catch(error)
-//     {   
-//         console.log('Error while connecting with the database' , error.message);
-//     }
-// }
-// export default Connection;
-
-
-
 
 
 
